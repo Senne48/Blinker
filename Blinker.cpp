@@ -15,7 +15,7 @@ Blinker::~Blinker() {}
 
 int Blinker::begin() {
   pinMode(_ledPin, OUTPUT);
-  _nvolgendeBlinkOm = now + _blinkInterval
+  _volgendeBlinkOm = _now + _blinkInterval;
 
   return 0;
 };
